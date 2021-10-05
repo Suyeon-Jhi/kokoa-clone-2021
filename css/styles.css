@@ -4,13 +4,13 @@
 
 /*Components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /*Screens*/
 @import "screens/login.css";
 
-
 /*styles.css파일에는 폰트스타일이나 배경컬러와 같은 모든 화면에 적용되는 스타일들을 적으면 됨*/
 body {
   font-family: "Open Sans", sans-serif;
+  height: 100vh;
 }
-

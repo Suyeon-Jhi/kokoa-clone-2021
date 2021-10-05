@@ -1,1 +1,59 @@
-Hello~
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar"> 
+        <!-- class 이름을 column으로 지으면 너무 흔하고, column이라는 이름은 자주 쓰기 때문에, status-bar__column으로 이름 짓기 -->
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- To Do: Wifi Icon -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <!-- Battery Icon -->
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <!-- Lightening Icon -->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__notification">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#">
+                    <span class="nav__dot"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
